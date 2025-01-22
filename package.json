@@ -1,0 +1,14 @@
+{
+  "name": "santa-scanner",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd frontend && npm run preview"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.20",
+    "mongoose": "^8.9.1"
+  }
+}
