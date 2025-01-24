@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 const connectDB = async () => {
   if (mongoose.connections[0].readyState) return;
   
-  await mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Root:dbUserPassword@santa.zu0lr.mongodb.net/santas_scanner?retryWrites=true&w=majority');
+  await mongoose.connect(process.env.MONGODB_URI || 'No DB');
 };
 
 // Define Schema
